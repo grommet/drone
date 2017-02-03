@@ -23,9 +23,17 @@ func Load(middleware ...gin.HandlerFunc) http.Handler {
 	e.SetHTMLTemplate(template.Load())
 
 	fs := http.FileServer(dist.AssetFS())
-	e.GET("/static/*filepath", func(c *gin.Context) {
-		fs.ServeHTTP(c.Writer, c.Request)
-	})
+	e.GET("/img/*filepath", func(c *gin.Context) {
+    fs.ServeHTTP(c.Writer, c.Request)
+  })
+
+  e.GET("/index.css", func(c *gin.Context) {
+    fs.ServeHTTP(c.Writer, c.Request)
+  })
+
+  e.GET("/index.js", func(c *gin.Context) {
+    fs.ServeHTTP(c.Writer, c.Request)
+  })
 
 	e.Use(header.NoCache)
 	e.Use(header.Options)
