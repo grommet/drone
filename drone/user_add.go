@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/codegangsta/cli"
-	"github.com/drone/drone/model"
+	"github.com/grommet/drone/model"
 )
 
 var userAddCmd = cli.Command{

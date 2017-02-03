@@ -3,9 +3,9 @@ package token
 import (
 	"time"
 
-	"github.com/drone/drone/remote"
-	"github.com/drone/drone/router/middleware/session"
-	"github.com/drone/drone/store"
+	"github.com/grommet/drone/remote"
+	"github.com/grommet/drone/router/middleware/session"
+	"github.com/grommet/drone/store"
 
 	log "github.com/Sirupsen/logrus"
 	"github.com/gin-gonic/gin"

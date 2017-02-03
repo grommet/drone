@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/drone/drone/yaml"
+	"github.com/grommet/drone/yaml"
 )
 
 // CommandTransform transforms the custom shell commands in the Yaml pipeline

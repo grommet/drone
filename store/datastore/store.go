@@ -5,8 +5,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/drone/drone/store"
-	"github.com/drone/drone/store/datastore/ddl"
+	"github.com/grommet/drone/store"
+	"github.com/grommet/drone/store/datastore/ddl"
 	"github.com/rubenv/sql-migrate"
 	"github.com/russross/meddler"
 
@@ -103,7 +103,7 @@ func setupDatabase(driver string, db *sql.DB) error {
 }
 
 // helper function to avoid stuck jobs when Drone unexpectedly
-// restarts. This is a temp fix for https://github.com/drone/drone/issues/1195
+// restarts. This is a temp fix for https://github.com/grommet/drone/issues/1195
 func cleanupDatabase(db *sql.DB) {
 	db.Exec("update builds set build_status = 'error' where build_status IN ('pending','running')")
 	db.Exec("update jobs set job_status = 'error' where job_status IN ('pending','running')")

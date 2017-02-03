@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/drone/drone/model"
-	"github.com/drone/drone/remote"
-	"github.com/drone/drone/remote/mock"
+	"github.com/grommet/drone/model"
+	"github.com/grommet/drone/remote"
+	"github.com/grommet/drone/remote/mock"
 	"github.com/franela/goblin"
 	"github.com/gin-gonic/gin"
 )

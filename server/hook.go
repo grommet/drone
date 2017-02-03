@@ -9,12 +9,12 @@ import (
 	"github.com/square/go-jose"
 
 	log "github.com/Sirupsen/logrus"
-	"github.com/drone/drone/model"
-	"github.com/drone/drone/remote"
-	"github.com/drone/drone/shared/httputil"
-	"github.com/drone/drone/shared/token"
-	"github.com/drone/drone/store"
-	"github.com/drone/drone/yaml"
+	"github.com/grommet/drone/model"
+	"github.com/grommet/drone/remote"
+	"github.com/grommet/drone/shared/httputil"
+	"github.com/grommet/drone/shared/token"
+	"github.com/grommet/drone/store"
+	"github.com/grommet/drone/yaml"
 	"github.com/drone/mq/stomp"
 )
 

@@ -3,8 +3,8 @@ package server
 import (
 	"github.com/gin-gonic/gin"
 
-	"github.com/drone/drone/router/middleware/session"
-	"github.com/drone/drone/shared/token"
+	"github.com/grommet/drone/router/middleware/session"
+	"github.com/grommet/drone/shared/token"
 )
 
 // ShowIndex serves the main Drone application page.

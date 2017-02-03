@@ -3,7 +3,7 @@ package transform
 import (
 	"fmt"
 
-	"github.com/drone/drone/yaml"
+	"github.com/grommet/drone/yaml"
 )
 
 func Check(c *yaml.Config, trusted bool) error {

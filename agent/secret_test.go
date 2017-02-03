@@ -3,7 +3,7 @@ package agent
 import (
 	"testing"
 
-	"github.com/drone/drone/model"
+	"github.com/grommet/drone/model"
 	"github.com/franela/goblin"
 )
 

@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/drone/drone/drone/agent"
-	"github.com/drone/drone/version"
+	"github.com/grommet/drone/drone/agent"
+	"github.com/grommet/drone/version"
 
 	"github.com/codegangsta/cli"
 	"github.com/ianschenck/envflag"

@@ -2,7 +2,7 @@ package middleware
 
 import (
 	"github.com/codegangsta/cli"
-	"github.com/drone/drone/shared/token"
+	"github.com/grommet/drone/shared/token"
 
 	"github.com/Sirupsen/logrus"
 	"github.com/gin-gonic/gin"

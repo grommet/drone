@@ -3,7 +3,7 @@ package client
 import (
 	"io"
 
-	"github.com/drone/drone/model"
+	"github.com/grommet/drone/model"
 )
 
 // Client is used to communicate with a Drone server.

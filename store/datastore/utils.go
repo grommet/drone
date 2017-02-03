@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/drone/drone/model"
+	"github.com/grommet/drone/model"
 	"github.com/russross/meddler"
 )
 

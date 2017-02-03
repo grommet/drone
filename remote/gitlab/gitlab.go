@@ -10,12 +10,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/drone/drone/model"
-	"github.com/drone/drone/remote"
-	"github.com/drone/drone/shared/httputil"
-	"github.com/drone/drone/shared/oauth2"
+	"github.com/grommet/drone/model"
+	"github.com/grommet/drone/remote"
+	"github.com/grommet/drone/shared/httputil"
+	"github.com/grommet/drone/shared/oauth2"
 
-	"github.com/drone/drone/remote/gitlab/client"
+	"github.com/grommet/drone/remote/gitlab/client"
 )
 
 const DefaultScope = "api"

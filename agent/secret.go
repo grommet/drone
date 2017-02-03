@@ -3,7 +3,7 @@ package agent
 import (
 	"strings"
 
-	"github.com/drone/drone/model"
+	"github.com/grommet/drone/model"
 )
 
 // SecretReplacer hides secrets from being exposed by the build output.

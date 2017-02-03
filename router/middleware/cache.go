@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	"github.com/drone/drone/cache"
+	"github.com/grommet/drone/cache"
 
 	"github.com/codegangsta/cli"
 	"github.com/gin-gonic/gin"

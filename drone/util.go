@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/drone/drone/client"
+	"github.com/grommet/drone/client"
 
 	"github.com/codegangsta/cli"
 	"github.com/jackspirou/syscerts"

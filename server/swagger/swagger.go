@@ -3,7 +3,7 @@ package swagger
 import (
 	"net/http"
 
-	"github.com/drone/drone/model"
+	"github.com/grommet/drone/model"
 )
 
 // swagger:route GET /users/{login} user getUser

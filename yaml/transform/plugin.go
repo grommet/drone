@@ -3,7 +3,7 @@ package transform
 import (
 	"path/filepath"
 
-	"github.com/drone/drone/yaml"
+	"github.com/grommet/drone/yaml"
 )
 
 // PluginDisable is a transform function that alters the Yaml configuration to

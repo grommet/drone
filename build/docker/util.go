@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/drone/drone/yaml"
+	"github.com/grommet/drone/yaml"
 	"github.com/samalba/dockerclient"
 )
 

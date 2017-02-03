@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/drone/drone/yaml"
+	"github.com/grommet/drone/yaml"
 )
 
 // ImagePull transforms the Yaml to automatically pull the latest image.

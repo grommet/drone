@@ -9,11 +9,11 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/gorilla/securecookie"
 
-	"github.com/drone/drone/cache"
-	"github.com/drone/drone/model"
-	"github.com/drone/drone/router/middleware/session"
-	"github.com/drone/drone/shared/token"
-	"github.com/drone/drone/store"
+	"github.com/grommet/drone/cache"
+	"github.com/grommet/drone/model"
+	"github.com/grommet/drone/router/middleware/session"
+	"github.com/grommet/drone/shared/token"
+	"github.com/grommet/drone/store"
 )
 
 func GetSelf(c *gin.Context) {

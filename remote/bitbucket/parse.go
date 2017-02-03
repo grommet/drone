@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/drone/drone/model"
-	"github.com/drone/drone/remote/bitbucket/internal"
+	"github.com/grommet/drone/model"
+	"github.com/grommet/drone/remote/bitbucket/internal"
 )
 
 const (

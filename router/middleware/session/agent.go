@@ -1,7 +1,7 @@
 package session
 
 import (
-	"github.com/drone/drone/shared/token"
+	"github.com/grommet/drone/shared/token"
 	"github.com/gin-gonic/gin"
 )
 

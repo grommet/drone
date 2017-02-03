@@ -6,8 +6,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/drone/drone/model"
-	"github.com/drone/drone/remote/bitbucket/internal"
+	"github.com/grommet/drone/model"
+	"github.com/grommet/drone/remote/bitbucket/internal"
 
 	"golang.org/x/oauth2"
 )

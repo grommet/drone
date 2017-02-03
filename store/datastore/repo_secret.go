@@ -1,7 +1,7 @@
 package datastore
 
 import (
-	"github.com/drone/drone/model"
+	"github.com/grommet/drone/model"
 	"github.com/russross/meddler"
 )
 

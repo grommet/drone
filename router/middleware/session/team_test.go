@@ -3,8 +3,8 @@ package session
 import (
 	"testing"
 
-	"github.com/drone/drone/cache"
-	"github.com/drone/drone/model"
+	"github.com/grommet/drone/cache"
+	"github.com/grommet/drone/model"
 	"github.com/franela/goblin"
 	"github.com/gin-gonic/gin"
 )

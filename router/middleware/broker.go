@@ -4,7 +4,7 @@ import (
 	"os"
 	"sync"
 
-	handlers "github.com/drone/drone/server"
+	handlers "github.com/grommet/drone/server"
 
 	"github.com/codegangsta/cli"
 	"github.com/drone/mq/logger"

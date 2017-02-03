@@ -5,12 +5,12 @@ import (
 
 	"github.com/Sirupsen/logrus"
 	"github.com/codegangsta/cli"
-	"github.com/drone/drone/remote"
-	"github.com/drone/drone/remote/bitbucket"
-	"github.com/drone/drone/remote/bitbucketserver"
-	"github.com/drone/drone/remote/github"
-	"github.com/drone/drone/remote/gitlab"
-	"github.com/drone/drone/remote/gogs"
+	"github.com/grommet/drone/remote"
+	"github.com/grommet/drone/remote/bitbucket"
+	"github.com/grommet/drone/remote/bitbucketserver"
+	"github.com/grommet/drone/remote/github"
+	"github.com/grommet/drone/remote/gitlab"
+	"github.com/grommet/drone/remote/gogs"
 	"github.com/gin-gonic/gin"
 )
 

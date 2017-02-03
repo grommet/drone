@@ -1,6 +1,6 @@
 package build
 
-import "github.com/drone/drone/yaml"
+import "github.com/grommet/drone/yaml"
 
 // Config defines the configuration for creating the Pipeline.
 type Config struct {

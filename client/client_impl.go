@@ -12,7 +12,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/drone/drone/model"
+	"github.com/grommet/drone/model"
 	"golang.org/x/net/proxy"
 	"golang.org/x/oauth2"
 )

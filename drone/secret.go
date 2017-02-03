@@ -7,7 +7,7 @@ import (
 	"text/template"
 
 	"github.com/codegangsta/cli"
-	"github.com/drone/drone/model"
+	"github.com/grommet/drone/model"
 )
 
 var secretCmd = cli.Command{

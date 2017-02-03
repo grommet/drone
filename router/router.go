@@ -5,13 +5,13 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/drone/drone/router/middleware/header"
-	"github.com/drone/drone/router/middleware/session"
-	"github.com/drone/drone/router/middleware/token"
-	"github.com/drone/drone/server"
-	"github.com/drone/drone/server/template"
+	"github.com/grommet/drone/router/middleware/header"
+	"github.com/grommet/drone/router/middleware/session"
+	"github.com/grommet/drone/router/middleware/token"
+	"github.com/grommet/drone/server"
+	"github.com/grommet/drone/server/template"
 
-	"github.com/drone/drone-ui/dist"
+	"github.com/grommet/grommet-drone-ui/dist"
 )
 
 // Load loads the router
