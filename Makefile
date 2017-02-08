@@ -13,7 +13,7 @@ all: gen build_static
 deps: deps_backend deps_frontend
 
 deps_frontend:
-	go get -u github.com/grommet/grommet-drone-ui/dist
+	go get -u github.com/grommet/grommet-drone-ui/public
 
 deps_backend:
 	go get -u golang.org/x/tools/cmd/cover
