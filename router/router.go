@@ -11,7 +11,7 @@ import (
 	"github.com/grommet/drone/server"
 	"github.com/grommet/drone/server/template"
 
-	"github.com/grommet/grommet-drone-ui/public"
+	"github.com/grommet/grommet-drone-ui/dist"
 )
 
 // Load loads the router
