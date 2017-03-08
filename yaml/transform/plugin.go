@@ -1,6 +1,6 @@
 package transform
 
-import "github.com/drone/drone/yaml"
+import "github.com/grommet/drone/yaml"
 
 // PluginDisable is a transform function that alters the Yaml configuration to
 // disables plugins. This is intended for use when executing the pipeline
